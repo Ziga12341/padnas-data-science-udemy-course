@@ -1,0 +1,24 @@
+[project]
+name = "the-complete-pandas-bootcamp-2024-data-science-with-python"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Žiga Pregelj", email = "ziga.pregelj@razum.si" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/the_complete_pandas_bootcamp_2024_data_science_with_python"]
